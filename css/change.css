@@ -1,0 +1,7 @@
+section .myform .doform form p input.foc{
+	border:1px solid #ff9342;
+}
+section .aler ul li.on{
+	color: #49a75b;
+	border-bottom: 4px solid #49a75b;
+}

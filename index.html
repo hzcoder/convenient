@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>方便网</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/change.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<header>
+		<div class="head">
+			<div class="pic">
+				<img src="images/logo.png">
+                <img src="images/logo1.png">
+			</div>
+		</div>
+	</header>
+    <section>
+        <div class="top">
+            <img src="images/icon9_1.png">
+            <h2>注册会员</h2>
+            <p>我已经注册，现在就登录<a href="#">登录</a></p>
+        </div>
+        <div class="myform">
+            <div class="tit">
+                <p>填写注册信息</p>
+                <p>接受并填写手机验证码</p>
+                <p>注册成功</p>
+                <img src="images/regis1.png">
+                <img src="images/regis3.png">
+                <img src="images/regis4.png">
+            </div>
+            <div class="error" id="phoneError">
+                <img src="images/icon21.png">
+                <p>手机号码格式不正确</p>
+            </div>
+            <div class="error" id="pwdError">
+                <img src="images/icon21.png">
+                <p>密码为6至8位的字母，数字</p>
+            </div>
+            <div class="error" id="repwdError">
+                <img src="images/icon21.png">
+                <p>确认密码错误</p>
+            </div>
+            <div class="error" id="emailError">
+                <img src="images/icon21.png">
+                <p>邮箱格式不正确</p>
+            </div>
+            <div class="error" id="picError">
+                <img src="images/icon21.png">
+                <p>验证码错误</p>
+            </div>
+            <div class="error" id="phonereError">
+                <img src="images/icon21.png">
+                <p>该手机号已注册</p>
+            </div>
+            <img src="images/icon21_1.png" id="ale">
+            <div class="doform">
+                <form action="verify.html">
+                    <p>
+                        <label for="phone">手机号码</label>
+                        <input type="text" id="phone">
+                        <img src="images/icon35.png" id="phoneInfo">
+                    </p>
+
+                    <p>
+                        <label for="pwd">登录密码</label>
+                        <input type="password" id="pwd">
+                        <img src="images/icon35.png" id="pwdInfo">
+                    </p>
+                    <p>
+                        <label for="repwd">确认密码</label>
+                        <input type="password" id="repwd">
+                        <img src="images/icon35.png" id="repwdInfo">
+                    </p>
+                    <p>
+                        <label for="email">常用邮箱</label>
+                        <input type="text" id="email">
+                        <img src="images/icon35.png" id="emailInfo">
+                    </p>
+                    <p>
+                        <label for="pic">图形验证码</label>
+                        <input type="text" id="pic">
+                        <img src="images/icon36.png">
+                        <img src="images/icon35.png" id="picInfo">
+                    </p>
+                    <br> 
+                    <input type="checkbox"id="box"> 我已阅读并同意遵守<a href="">《方便网服务协议》</a>
+                    <br>
+                    <button id="btn">申请注册</button>
+                </form>
+            </div>
+            <div class="right">
+                <img src="images/webchat.png">
+                <img src="images/regis7.png">
+                <img src="images/regis6.png">
+            </div>
+        </div>
+        <button id="test">test</button>
+        <button id="clear">clear</button>
+    </section>
+    <footer>
+        <div class="nav">
+            <ul>
+                <li>关于我们</li>
+                <li>免责声明</li>
+                <li>常见问题</li>
+                <li>联系我们</li>
+                <li>人才招聘</li>
+            </ul>
+        </div>
+        <div class="txt">
+            <p><span>Copyright@2013-2016</span>|苏ICP备12063525号-4苏州乐卡网络科技有限公司</p>
+        </div>
+    </footer>
+</body>
+</html>
